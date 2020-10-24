@@ -203,6 +203,47 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: $Blanco;
 }
 
+
+/* Banner Carosuel
+-------------------------------------------------- */
+
+.carousel {
+  margin-bottom: 4rem;  
+}
+
+.carousel-caption {  
+  bottom: 12rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 756px;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+	.carousel-caption {  
+		bottom: 14rem;	  	
+	}
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
